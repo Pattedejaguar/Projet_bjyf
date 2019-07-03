@@ -7,14 +7,17 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <?php
+  <div class="container">
+  <nav class="nav justify-content-center">
+    <?php
   $fichier = 'source.xml'; //recupération du ficher dans une variable
   $xml = simplexml_load_file($fichier);
                 $id = $_GET['id'];
                 foreach ($xml as $pages){
               ?>
-              <a href="index.php?id=<?= $pages['id'] ?>"><?= $pages->menu ?></a>
+              <a class ="nav-link" href="index.php?id=<?= $pages['id'] ?>"><?= $pages->menu ?></a>
               <?php } ?>
+            </nav>
             <?php
               echo '<br>';
               switch ($id) {
@@ -39,5 +42,6 @@
                       echo $xml->page[0]->content;
                       break;
               } ?>
+              </div>
 </body>
 </html>
