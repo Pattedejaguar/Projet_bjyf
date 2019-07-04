@@ -9,11 +9,13 @@
 <p>Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2>Nos dernières réalisations à Nantes</h2>
 <div class="container row gallery_box_single justify-content-between">
-    <div class="img"><img class="image"src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
-    <div class="img"><img  class="image" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
-    <div class="img"><img class="image" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
-    <div class="img"><img class="image" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div class="img"><img class="image"src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
+    <div class="img"><img class="img1 image"src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="description caption-text">Rénovation d'un appartement à Nantes</p></div>
+    <div class="img"><img  class="img2 image" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="description caption-text">Aménagement de comble à Nantes</p></div>
+    <div class="img"><img class="img3 image" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="description caption-text">Rénovation d'une maison à Nantes</p></div>
+  <div class="container row gallery_box_single justify-content-around"> 
+    <div class="img"><img class="img4 image" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="description caption-text">Travaux de rénovation  à Nantes</p></div>
+    <div class="img"><img class="img5 image"src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="description caption-text">Rénovation d'un appartement à Nantes</p></div>	
+  </div>
 </div>
 
 

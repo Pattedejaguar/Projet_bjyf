@@ -1,37 +1,43 @@
 p{
- text-justify: auto;
- color: lightgrey;
+    text-justify: auto;
+    color: black;
+    font-weight: bolder;
 }
-h1{
- color : lightgrey;
- background: radial-gradient(ellipse farthest-corner,
-      red, yellow 10%, black, 50%, cyan);
-}
- 
 
+h1{
+    color : lightgrey;
+    background: radial-gradient(ellipse farthest-corner,
+        red, #9a00e8, 10%, black, 50%, yellow );
+    text-align : center;
+}
+
+.description{
+    font-size: 12px;
+}
 body
 {  
-   background: linear-gradient(to top, lightgrey, 75%, #9a00e8);
-   text-align: center;
+    background: linear-gradient(to top, lightgrey, 75%, #9a00e8);
 }
 
 h2
 {
-text-decoration : underline ;
-background:
-      repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
+    text-decoration : underline ;
+    background:
+        repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
         rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px,
         rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
         rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
         rgba(255, 0, 0, 0.5) 300px),
-      repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
+        repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
         rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
         rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
         rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
         rgba(255, 0, 0, 0.5) 230px),
-      repeating-linear-gradient(23deg, red 50px, orange 100px,
+        repeating-linear-gradient(23deg, red 50px, orange 100px,
         yellow 150px, green 200px, blue 250px,
         indigo 300px, violet 350px, red 370px);
+    text-align: center;
+    
 }
 
 title{
@@ -39,10 +45,10 @@ title{
 }
 
 .image{
-    border-radius: 20%;
+    border-radius: 15% 10% 00% 00%;
 }
-.img {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+
+ul{
+    font-style: italic;
+    color: #040505;
 }
