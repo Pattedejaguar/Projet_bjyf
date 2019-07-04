@@ -15,7 +15,7 @@
                 $id = $_GET['id'];
                 foreach ($xml as $pages) {
                     ?>
-                    <a class =" nav-link" href="index.php?id=<?= $pages['id'] ?>"><?= $pages->menu ?></a>
+                    <a class =" nav-link" href="<?= $pages['id'] ?>.html"><?= $pages->menu ?></a>
                 <?php } ?>
             </nav>
             <?php
