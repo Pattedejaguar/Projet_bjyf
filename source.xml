@@ -3,7 +3,8 @@
     <page id="1">
         <menu>Accueil</menu>
         <title>Accueil - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1 class="shadow-lg p-3 mb-5 rounded text-center">Maçonnerie Ocordo</h1>
+        <content><![CDATA[<h1 class="rounded text-center">Maçonnerie Ocordo</h1>
+            <hr class="line"> 
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
 <p>Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p>Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
@@ -26,11 +27,12 @@
         <menu>Qui sommes nous?</menu>
         <title>En apprendre plus sur nous - Maçonnerie Ocordo</title>
         <content><![CDATA[<h1>Qui sommes-nous?</h1>
-<h2>L’AGENCE DE TRAVAUX OCORDO</h2>
+             <hr class="line"> 
+<h2 class="h2p2">L’AGENCE DE TRAVAUX OCORDO</h2>
 <h3>Présentation de notre entreprise</h3>
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p>
     Nous travaillons exclusivement pour les particuliers.</p>
-<p><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
+<p class="responsive"><iframe  src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
 <p>Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p><p>
 <ul>
     <li>Maçonnerie générale</li><li>
@@ -68,6 +70,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
         <content><![CDATA[<h1>Nos clients témoignent</h1>
+         <hr class="line"> 
 <div class="testimonials-list">
     <div class="quote">
         <h2>Rénovation transformation</h2>
@@ -84,8 +87,8 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <page id="4">
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Contact et Devis</h1>    
-<p><iframe style="border: 0; float: right;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
+        <content><![CDATA[<h1>Contact et Devis</h1>  
+             <hr class="line">  
 <p>POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
 <ul>
     <li>Téléphonez-nous au 02.51.84.18.24</li>
@@ -105,6 +108,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <label>Votre message * :</label>
         <textarea name="your-message" cols="40" rows="10" class="form-control textarea validates-as-required"  ></textarea>
     </form>
+<p class="map responsive"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
 </div>]]></content>
     </page>
 </website>

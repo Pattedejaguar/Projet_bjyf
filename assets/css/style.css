@@ -1,14 +1,16 @@
 p{
     text-justify: auto;
-    color: black;
+    color: #846450;
     font-weight: bolder;
 }
 
 h1{
-    color : lightgrey;
-    background: radial-gradient(ellipse farthest-corner,
-        red, #9a00e8, 10%, black, 50%, yellow );
+    font-family: 'Coda', cursive;
+    color : #D4D03F;
     text-align : center;
+    margin-top : 5px;
+    margin-bottom : 30px;
+    
 }
 
 .description{
@@ -16,28 +18,27 @@ h1{
 }
 body
 {  
-    background: linear-gradient(to top, lightgrey, 75%, #9a00e8);
+    
+background-color:white ;
+   
 }
+ 
 
 h2
 {
+    font-family: 'Coda', cursive;
     text-decoration : underline ;
-    background:
-        repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
-        rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px,
-        rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
-        rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
-        rgba(255, 0, 0, 0.5) 300px),
-        repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
-        rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
-        rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
-        rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
-        rgba(255, 0, 0, 0.5) 230px),
-        repeating-linear-gradient(23deg, red 50px, orange 100px,
-        yellow 150px, green 200px, blue 250px,
-        indigo 300px, violet 350px, red 370px);
     text-align: center;
+    padding : 5PX;
+    color: #BFB76D;
+    margin-bottom : 30px;
     
+}
+h3{
+    font-family: 'Coda', cursive;
+    font-size: 23px;
+    margin-bottom : 20px;
+    color : #846450;
 }
 
 title{
@@ -45,10 +46,78 @@ title{
 }
 
 .image{
-    border-radius: 15% 10% 00% 00%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+.caption-text{
+    margin-top : 5px;
+    margin-left : 50px;
+    
 }
 
 ul{
     font-style: italic;
-    color: #040505;
+    color: #4C5851;
+}
+
+/* Responsive vidéo youtube et google map */
+@media only screen and (max-width:576px){
+    .responsive {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .responsive iframe,  
+    .responsive object,  
+    .responsive embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+.nav-link{
+    font-family: 'Coda', cursive;
+    color : #846450;
+    font-size : 20px;
+   border:solid #846450;
+   border-radius: 10%; 
+    
+}
+
+a:hover{
+  font-weight : bold;  
+  color : #4C5851;
+  border:solid  #4C5851;
+  
+}
+.h2p2{
+    font-size: 30px;
+}
+
+.map{
+    position:relative;
+  text-align : center;
+  margin: 40px;
+}
+
+hr{
+    background-color : #D4D03F;
+    height: 3px;
+    margin-top: 10px;
+}
+
+form{
+    color : black;
+}
+
+input{
+    border: solid 2px black !important;
+}
+textarea{
+    border: solid 2px black !important;
 }
