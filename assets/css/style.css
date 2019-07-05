@@ -2,27 +2,26 @@ p{
     text-justify: auto;
     color: #846450;
     font-weight: bolder;
+    font-family: 'Coda', cursive;
 }
 
 h1{
-    font-family: 'Coda', cursive;
+    font-family: 'Faster One', cursive;
     color : #D4D03F;
     text-align : center;
     margin-top : 5px;
-    margin-bottom : 30px;
-    
+    margin-bottom : 30px;    
 }
 
 .description{
     font-size: 12px;
 }
+
 body
 {  
     
-background-color:white ;
-   
+background-color:white ;   
 }
- 
 
 h2
 {
@@ -31,9 +30,9 @@ h2
     text-align: center;
     padding : 5PX;
     color: #BFB76D;
-    margin-bottom : 30px;
-    
+    margin-bottom : 30px;    
 }
+
 h3{
     font-family: 'Coda', cursive;
     font-size: 23px;
@@ -49,6 +48,7 @@ title{
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.3);
 }
+
 .caption-text{
     margin-top : 5px;
     margin-left : 50px;
@@ -60,26 +60,6 @@ ul{
     color: #4C5851;
 }
 
-/* Responsive vidéo youtube et google map */
-@media only screen and (max-width:576px){
-    .responsive {
-        position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 30px;
-        height: 0;
-        overflow: hidden;
-    }
-
-    .responsive iframe,  
-    .responsive object,  
-    .responsive embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
 .nav-link{
     font-family: 'Coda', cursive;
     color : #846450;
@@ -92,9 +72,9 @@ ul{
 a:hover{
   font-weight : bold;  
   color : #4C5851;
-  border:solid  #4C5851;
-  
+  border:solid  #4C5851;  
 }
+
 .h2p2{
     font-size: 30px;
 }
@@ -118,6 +98,28 @@ form{
 input{
     border: solid 2px black !important;
 }
+
 textarea{
     border: solid 2px black !important;
+}
+
+/* Responsive vidéo youtube et google map */
+@media only screen and (max-width:576px){
+    .responsive {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .responsive iframe,  
+    .responsive object,  
+    .responsive embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
